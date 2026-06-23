@@ -1,0 +1,16 @@
+services:
+  mars:
+    build: .
+    image: mars_ros
+    container_name: mars_ros
+    network_mode: host
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /home/awakesid/mars_ws:/root/mars_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev:/dev
+    stdin_open: true
+    tty: true
+    command: bash
