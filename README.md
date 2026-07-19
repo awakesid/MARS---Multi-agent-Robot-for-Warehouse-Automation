@@ -100,6 +100,4 @@ Thread-based multi-robot execution with double dropzone gave the best throughput
 Department of Electronics and Computer Engineering, Pashchimanchal Campus, IOE, Tribhuvan University
 Supervisor: Asst. Prof. Er. Hom Nath Tiwari
 
-## License
-
-See institutional copyright notice in `/docs/report.pdf`. For reuse permissions, contact the Department of Electronics and Computer Engineering, IOE, Pashchimanchal Campus.
+For a more detailed description, you can refer `MARS_report.pdr`
