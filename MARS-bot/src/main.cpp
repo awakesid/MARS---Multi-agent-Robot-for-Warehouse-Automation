@@ -4,8 +4,8 @@
 
 
 // ─── WiFi Config ─────────────────────────────────────────────────
-const char* SSID     = "Galaxy M36 5G 610A";
-const char* PASSWORD = "don12345";
+const char* SSID     = "your ssid";
+const char* PASSWORD = "your password";
 const int   UDP_PORT = 4210;
 
 // ─── Bot Identity ────────────────────────────────────────────────
