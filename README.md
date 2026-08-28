@@ -80,18 +80,9 @@ Each command receives an `ack` on receipt and a `done` reply on completion. Odom
    ros2 launch mars_bringup mars.launch.py
    ```
 
-## Results Summary
-
-| Configuration | Avg. time (2 loads) |
-|---|---|
-| Single robot | 38.14 s |
-| Two robots (priority-based) | 30.44 s |
-| Two robots (thread-based) | 15.45 s |
-
 Thread-based multi-robot execution with double dropzone gave the best throughput; single dropzone increases collision risk and coordination overhead.
 
 ## Team
-
 - Amrit Kumar Banjade
 - Laxmi Prasad Upadhyaya
 - Siddartha Gupta
